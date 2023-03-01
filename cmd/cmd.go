@@ -8,11 +8,11 @@ import (
 )
 
 const (
-	//
 	_maxJWTSize = 8 * 1024 * 1024
 )
 
 var (
+	// Only decode for now
 	rootCmd = &cobra.Command{
 		Use:   "jwtutil",
 		Short: "JWT Utilities",
